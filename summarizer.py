@@ -11,7 +11,7 @@ messages = [
 
 
 def summarize_article(content):
-    response = openai.Completion.create(
+    response = openai.chat.completions.create(
         model="gpt-4o-mini",
         messages=messages,
     )
