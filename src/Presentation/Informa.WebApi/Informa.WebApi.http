@@ -1,0 +1,6 @@
+@Informa.WebApi_HostAddress = http://localhost:5244
+
+GET {{Informa.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
